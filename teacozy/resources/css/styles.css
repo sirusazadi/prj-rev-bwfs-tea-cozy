@@ -1,0 +1,146 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  font-size: 22px;
+}
+
+h2, h3, h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: underline;
+  color: seashell;
+}
+
+.flex-it {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+header {
+  position: fixed;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  padding-right: 10px;
+}
+
+nav span {
+  padding: 20px 10px;
+  display: inline-block;
+}
+
+.main-container {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+#hero {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  padding-top: 70px;
+}
+
+.hero-section {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+
+}
+
+.month-picks {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.pick-thumb {
+  padding: 5px;
+}
+
+.pick-thumb img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.pick-thumb span {
+  padding: 5px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+}
+
+.locations {
+
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  padding-top: 70px;
+
+}
+
+.addresses-container {
+  display: flex;
+  justify-content: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 1100px;
+  padding-top: 5px;
+
+}
+
+.address {
+  flex-basis: 280px;
+  opacity: 1.0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px 20px;
+  padding: 10px;
+
+}
+
+.address span {
+  padding: 20px;
+
+}
+
+.info {
+  height: 200px;
+
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+
+}
